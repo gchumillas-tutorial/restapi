@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "00d0e5bae5052820e40f145e7cea71aa",
+    "packages": [
+        {
+            "name": "gchumillas/http-controller",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gchumillas/http-controller.git",
+                "reference": "b6b9f9a9f6e6d0d484347e17ce9e64e9f6da7253"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gchumillas/http-controller/zipball/b6b9f9a9f6e6d0d484347e17ce9e64e9f6da7253",
+                "reference": "b6b9f9a9f6e6d0d484347e17ce9e64e9f6da7253",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "gchumillas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Chumillas",
+                    "email": "gchumillas@email.com"
+                }
+            ],
+            "description": "A class to process HTTP requests.",
+            "time": "2018-07-22T21:32:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
